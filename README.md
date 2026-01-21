@@ -52,13 +52,15 @@ Em em cenário de produção, o ideal seria utilizar Tailwind com build (PostCSS
 ----
 
 ## 📂 Estrutura do Projeto
-/
-├── index.html
-├── contato.html
-├── js/
-│   └── main.js
-├── README.md
 
+```text
+📁 /
+├── 📝 index.html
+├── 📝 contato.html
+├── 📁 js/
+│   └── 📝 main.js
+├── 📝 README.md
+```
 ----
 
 ## ⚙️ JavaScript – Organização
