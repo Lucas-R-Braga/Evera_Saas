@@ -136,7 +136,7 @@ Este é um projeto 100% estático e não requer build ou instalação de depend�
 
 ## 👨‍💻 Autor
 
-Lucas Braga
+**Lucas Braga**
 
 🔗 [LinkedIn](https://www.linkedin.com/in/lucas-braga-4009a32b4/)
 🐙 [GitHub](https://github.com/Lucas-R-Braga)
