@@ -60,6 +60,7 @@ Em em cenário de produção, o ideal seria utilizar Tailwind com build (PostCSS
 ├── 📁 js/
 │   └── 📝 main.js
 ├── 📝 README.md
+├── 📝 GUIA-DO-CLIENTE
 ```
 ----
 
