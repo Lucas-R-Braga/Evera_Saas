@@ -7,7 +7,7 @@ O projeto tem foco em layout responsivo, boas práticas de HTML semântico, Tail
 
 ## 🖥️ Demonstração
 
-🔗 **Live Preview:** [Clique aqui](https://lucas-r-braga.github.io/Evera_Saas/)
+🔗 **Live Preview:** [Netlify](https://evera-saas-lucas.netlify.app/)
 🔗 **Repositório:** [GitHub](https://github.com/Lucas-R-Braga/Evera_Saas)
 
 ----
@@ -60,7 +60,7 @@ Em em cenário de produção, o ideal seria utilizar Tailwind com build (PostCSS
 ├── 📁 js/
 │   └── 📝 main.js
 ├── 📝 README.md
-├── 📝 GUIA-DO-CLIENTE
+├── 📝 GUIA_CLIENTE
 ```
 ----
 

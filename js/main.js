@@ -17,7 +17,8 @@ function initContactForm() {
 
     function showFeedback(message, type = 'success') {
         feedback.textContent = message;
-        feedback.className = ` text-sm text-center mt-2 transition-all duration-300 ${type === 'error' ? 'text-red-600' : 'text - green - 600'}`;
+        feedback.className = ` text-sm text-center mt-2 transition-all duration-300 ${type === 'error' ? 'text-red-600' :
+            'text-green-600'}`;
         
         feedback.classList.remove('hidden');
     }
