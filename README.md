@@ -122,6 +122,7 @@ Este é um projeto 100% estático e não requer build ou instalação de depend�
 
 🔍 SEO avançado
 
+----
 
 📌 Decisões Técnicas
 
