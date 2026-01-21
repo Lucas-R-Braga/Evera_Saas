@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Plataforma SaaS Simples</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+    <!-- ======== HEADER ======== -->
+    <header class="w-full border-b border-gray-200 bg-white">
+
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+
+            <a href="index.html" class="text-xl font-bold text-gray-900">
+                Plataforma SaaS Simples
+            </a>
+
+            <nav class="hidden md:block" aria-label="Navegação principal">
+
+                <ul class="flex items-center gap-8 text-sm font-medium text-gray-700">
+
+                    <li><a href="index.html#funcionalidades" class="hover:text-gray-900">Funcionalidades</a></li>
+                    <li><a href="index.html#como-funciona" class="hover:text-gray-900">Como Funciona</a></li>
+                    <li><a href="index.html#planos" class="hover:text-gray-900">Planos</a></li>
+                </ul>
+            </nav>
+
+            <a href="contato.html"
+               class="hidden md:inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 transition">
+                Fale Conosco
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ======== HERO CONTATO ======== -->
+        <section class="bg-white">
+
+            <div class="max-w-4xl mx-auto px-4 py-20 text-center">
+
+                <h1 class="text-4xl font-extrabold text-gray-900">
+                    Vamos conversar?
+                </h1>
+
+                <p class="mt-6 text-lg text-gray-600">
+                    Preencha nosso formulário abaixo e nossa equipe entrará em contato o mais rápido possível!
+                </p>
+            </div>
+        </section>
+
+        <!-- ======== FORMULÁRIO DE CONTATO ======== -->
+        <section>
+            <div class="max-w-3xl mx-auto px-4 pb-24">
+
+                <form id="contact-form" class="bg-white rounded-xl border border-gray-200 p-8 shadow-sm space-y-6">
+                    
+                    <!-- Nome -->
+                    <div>
+                        <label for="nome" class="block text-sm font-medium text-gray-700">
+                            Nome completo
+                        </label>
+                        <input type="text" 
+                               id="nome" 
+                               name="nome"
+                               autocomplete="name" 
+                               placeholder="Seu nome" 
+                               class="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                        >
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">
+                            Email
+                        </label>
+                        <input type="email" 
+                               id="email" 
+                               name="email"
+                               autocomplete="email" 
+                               placeholder="seu@email" 
+                               class="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                        >
+                    </div>
+
+                     <!-- Empresa -->
+                    <div>
+                        <label for="empresa" class="block text-sm font-medium text-gray-700">
+                            Empresa (opcional)
+                        </label>
+                        <input type="text" 
+                               id="empresa" 
+                               name="empresa"
+                               autocomplete="organization" 
+                               placeholder="Nome da empresa" 
+                               class="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                        >
+                    </div>
+
+                    <!-- Mensagem -->
+                     <div>
+                        <label for="mensagem" class="block text-sm font-medium text-gray-700">
+                            Mensagem
+                        </label>
+                        <textarea 
+                               id="mensagem" 
+                               name="mensagem" 
+                               rows="4"
+                               placeholder="Sua mensagem" 
+                               class="mt-2 w-full rounded-md border border-gray-300 px-4 py-2 text-gray-900 focus:border-gray-900 focus:ring-gray-900"
+                        ></textarea>
+                     </div>
+
+
+                     <p id="form-feedback" 
+                        aria-live="polite" 
+                        class="hidden text-sm text-center mt-2 opacity-0 -translate-y-2 transition-all duration-300"></p>
+                    <!-- Botão Enviar -->
+                     <div class="pt-4">
+                        <button type="submit"
+                                id="submit-button"
+                                class="w-full rounded-md bg-gray-900 px-6 py-3 text-sm font-semibold text-white hover:bg-gray-800 transition disabled:opacity-60 disabled:cursor-not-allowed">
+                            Enviar Mensagem
+                        </button>
+                     </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 py-12 text-center text-sm">
+            <p class="text-gray-400">
+                &copy; 2026 Plataforma SaaS Simples. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

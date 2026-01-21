@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma SaaS para automação de processos, centralização de operações e aumento de produtividade.">
+    <title>Plataforma SaaS Simples – Automação e produtividade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .reveal.show{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    
+    <!-- ================= HEADER ================= -->
+    <header class="w-full border-b border-gray-200">
+
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            
+            <!-- Logo --> 
+            <a href="index.html" class="text-xl font-bold text-gray-900">
+                Plataforma SaaS Simples
+            </a>
+
+            <!-- Navegação -->
+            <nav class="hidden md:block" aria-label="Navegação principal">
+
+                <ul class="flex items-center gap-8 text-sm font-medium text-gray-700">
+
+                    <li><a href="#funcionalidades" class="hover:text-gray-900">Funcionalidades</a></li>
+                    <li><a href="#como-funciona" class="hover:text-gray-900">Como Funciona</a></li>
+                    <li><a href="#planos" class="hover:text-gray-900">Planos</a></li>
+                    <li><a href="contato.html" class="hover:text-gray-900">Contato</a></li>
+
+                </ul>
+
+            </nav>
+
+            <!-- CTA -->
+             <a href="contato.html"
+             class="hidden md:inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 transition">
+                Começar
+             </a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section id="hero" class="bg-gray-50">
+
+            <div class="max-w-7xl mx-auto px-4 py-16 grid gap-12 md:grid-cols-2 items-center ">
+
+                <!-- Texto -->
+                <div>
+
+                    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-tight">
+                        Automatize sua operação em um único painel
+                    </h1>
+        
+                    <p class="mt-6 text-lg text-gray-600">
+                        Centralize processos, economize tempo e ganhe produtividade com uma plataforma simples e eficiente.
+                    </p>
+
+                    <div class="mt-8">
+
+                        <a href="contato.html"
+                           class="inline-flex items-center rounded-md bg-gray-900 px-6 py-3 text-base font-semibold text-white hover:bg-gray-800 transition">
+                            Começar agora
+                        </a>
+
+                    </div>
+                </div>
+    
+                <!-- Imagem -->
+                <figure class="w-full">
+    
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" alt="Dashboard de plataforma SaaS"
+                    class="w-full rounded-xl shadow-lg">
+    
+                </figure>
+            </div>
+        </section>
+
+
+        <!-- ================= FUNCIONALIDADES ================= -->
+        <section id="funcionalidades" class="bg-white">
+
+            <div class="max-w-7xl mx-auto px-4 py-20">
+
+                <!-- Título -->
+                <div class="text-center max-w-2xl mx-auto">
+
+                    <h2 class="text-3xl font-bold text-gray-900">
+                        Funcionalidades que simplificam seu dia
+                    </h2>
+
+                    <p class="mt-4 text-lg text-gray-600">
+                        Tudo que você precisa para automatizar processos e ganhar eficiência.
+                    </p>
+                </div>
+
+                <!-- Cards -->
+                <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <!-- Card 1 -->
+                    <article class="reveal rounded-xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-md transition">
+                        <img src="https://cdn-icons-png.flaticon.com/512/906/906343.png" 
+                             alt="Ícone de automação"
+                             class="h-12 w-12 md:h-16 md:w-16"
+                            >
+
+                        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+                            Automação Inteligente
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            Automatize tarefas repetitivas e foque no que realmente importa.
+                        </p>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="reveal rounded-xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-md transition">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" 
+                             alt="Ícone de gestão centralizada"
+                             class="h-12 w-12 md:h-16 md:w-16"
+                            >
+
+                        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+                            Gestão Centralizada
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            Tenha todas as informações do seu negócio em um só lugar.
+                        </p>
+                    </article>
+        
+                    <!-- Card 3 -->
+                    <article class="reveal rounded-xl border border-gray-200 bg-white p-8 shadow-sm hover:shadow-md transition">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" 
+                             alt="Ícone de relatórios"
+                             class="h-12 w-12 md:h-16 md:w-16"
+                            >
+
+                        <h3 class="mt-6 text-xl font-semibold text-gray-900">
+                            Relatórios Personalizados
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            Acompanhe métricas e resultados de forma clara e objetiva.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= COMO FUNCIONA ================= -->
+        <section id="como-funciona" class="bg-gray-50">
+
+            <div class="max-w-7xl mx-auto px-4 py-20">
+
+                <!-- Título -->
+                <div class="text-center max-w-2xl mx-auto">
+
+                    <h2 class="text-3xl font-bold text-gray-900">
+                        Como Funciona
+                    </h2>
+
+                    <p class="mt-4 text-lg text-gray-600">
+                        Comece a automatizar sua operação em poucos passos.
+                    </p>
+                </div>
+                
+                <!-- Steps -->
+                <div class="mt-16 grid gap-8 md:grid-cols-3">
+
+                    <!-- Step 1 -->
+                    <article class="reveal relative rounded-xl border border-gray-200 bg-white p-8 text-center shadow-sm">
+
+                        <span class="absolute -top-4 left-1/2 -translate-x-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white text-sm font-bold">
+                            1
+                        </span>
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" 
+                             alt="Criar conta"
+                             class="mx-auto mt-6 h-12 w-12 md:h-16 md:w-16"
+                             >
+
+                        <h3 class="mt-6 text-lg font-semibold text-gray-900">
+                            Crie sua conta
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            Cadastro rápido e sem complicações para começar agora mesmo.
+                        </p>
+                    </article>
+
+                    <!-- Step 2 -->
+                    <article class="reveal relative rounded-xl border border-gray-200 bg-white p-8 text-center shadow-sm">
+
+                        <span class="absolute -top-4 left-1/2 -translate-x-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white text-sm font-bold">
+                            2
+                        </span>
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" 
+                             alt="Configurar operação"
+                             class="mx-auto mt-6 h-12 w-12 md:h-16 md:w-16"
+                             >
+
+                        <h3 class="mt-6 text-lg font-semibold text-gray-900">
+                            Configure sua operação
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            Personalize a plataforma conforme as necessidades do seu negócio.
+                        </p>
+                    </article>
+
+                    <!-- Step 3 -->
+                    <article class="reveal relative rounded-xl border border-gray-200 bg-white p-8 text-center shadow-sm">
+
+                        <span class="absolute -top-4 left-1/2 -translate-x-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-gray-900 text-white text-sm font-bold">
+                            3
+                        </span>
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" 
+                             alt="Comece a automatizar"
+                             class="mx-auto mt-6 h-12 w-12 md:h-16 md:w-16"
+                             >
+
+                        <h3 class="mt-6 text-lg font-semibold text-gray-900">
+                            Comece a automatizar
+                        </h3>
+
+                        <p class="mt-3 text-gray-600">
+                            Deixe o sistema trabalhar por você e foque no crescimento.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ================= PLANOS E PREÇOS ================= -->
+         <section id="planos" class="bg-white">
+
+            <div class="max-w-7xl mx-auto px-4 py-20">
+
+                <!-- Título -->
+                <div class="text-center max-w-2xl mx-auto">
+
+                    <h2 class="text-3xl font-bold text-gray-900">
+                        Planos e Preços
+                    </h2>
+
+                    <p class="mt-4 text-lg text-gray-600">
+                        Escolha o plano ideal para o estágio do seu negócio.
+                    </p>
+                </div>
+    
+                <!-- pricing cards -->
+                <div class="mt-16 grid gap-8 md:grid-cols-2 lg:max-w-4xl lg:mx-auto">
+
+                    <!-- Plano básico -->
+                    <article class="reveal rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
+
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            Básico
+                        </h3>
+
+                        <p class="mt-2 text-gray-600">
+                            Ideal para pequenos negócios
+                        </p>
+
+                        <p class="mt-6 text-4xl font-extrabold text-gray-900">
+                            R$ 49
+                            <span class="text-base font-medium text-gray-500">/mês</span>
+                        </p>
+
+                        <ul class="mt-6 space-y-3 text-gray-600">
+                            <li>✔ Automação básica</li>
+                            <li>✔ Relatórios simples</li>
+                            <li>✔ Suporte por e-mail</li>
+                        </ul>
+
+                        <a href="contato.html" 
+                           class="mt-8 inline-flex w-full items-center justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50 transition">
+                            Assinar plano
+                        </a>
+                    </article>
+        
+
+                    <!-- Plano profissional (Destaque) -->
+                    <article class="reveal relative rounded-xl border-2 border-gray-900 bg-white p-8 shadow-md">
+
+                        <span class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-gray-900 px-4 py-1 text-xs font-semibold text-white">
+                            Mais popular
+                        </span>
+
+                        <h3 class="text-xl font-semibold text-gray-900">
+                            Profissional
+                        </h3>
+
+                        <p class="mt-2 text-gray-600">
+                            Para empresas em crescimento
+                        </p>
+
+                        <p class="mt-6 text-4xl font-extrabold text-gray-900">
+                            R$ 99
+                            <span class="text-base font-medium text-gray-500">/mês</span>
+                        </p>
+
+                        <ul class="mt-6 space-y-3 text-gray-600">
+                            <li>✔ Automação avançada</li>
+                            <li>✔ Relatórios Personalizados</li>
+                            <li>✔ Suporte prioritário</li>
+                        </ul>
+
+                        <a href="contato.html"
+                           class="mt-8 inline-flex w-full items-center justify-center rounded-md bg-gray-900 px-4 py-2 text-sm font-semibold text-white hover:bg-gray-800 transition">
+                           Assinar plano
+                        </a>
+                    </article>
+                </div>
+            </div>
+         </section>
+
+
+        <!-- ================= PROVA SOCIAL ================= -->
+         <section id="prova-social" class="bg-gray-50">
+            
+            <div class="max-w-7xl mx-auto px-4 py-20">
+
+                <!-- Título -->
+                <div class="text-center max-w-2xl mx-auto">
+
+                    <h2 class="text-3xl font-bold text-gray-900">
+                        Empresas que confiam em nossa plataforma
+                    </h2>
+
+                    <p class="mt-4 text-lg text-gray-600">
+                        Negócios de diferentes segmentos utilizam nossa solução diariamente.
+                    </p>
+                </div>
+
+                <!-- Logos -->
+                <div class="mt-12 flex flex-wrap items-center justify-center gap-8 opacity-70">
+
+                        <img src="https://dummyimage.com/160x80/111827/ffffff&text=SaaS+Corp" alt="SaaS Corp" class="h-10 sm:h-12">
+                        <img src="https://dummyimage.com/160x80/111827/ffffff&text=Tech+Company" alt="Tech Company" class="h-10 sm:h-12">
+                        <img src="https://dummyimage.com/160x80/111827/ffffff&text=Startup" alt="Startup" class="h-10 sm:h-12">
+                        <img src="https://dummyimage.com/160x80/111827/ffffff&text=Enterprise" alt="Enterprise" class="h-10 sm:h-12">
+                </div>
+            </div>
+         </section>
+
+
+        <!-- ================= FAQ + CTA FINAL ================= -->
+         <section id="faq" class="bg-white">
+
+            <div class="max-w-7xl mx-auto px-4 py-20">
+
+                <!-- FAQ -->
+                <div class="max-w-3xl mx-auto">
+
+                    <h2 class="text-center text-3xl font-bold text-gray-900">
+                        Perguntas Frequentes
+                    </h2>
+
+                    <p class="mt-4 text-center text-lg text-gray-600">
+                        Tire suas dúvidas sobre nossa plataforma.
+                    </p>
+                </div>
+                
+                <div class=" mt-12 space-y-6">
+
+                    <!-- Pergunta 1 -->
+                    <article class="rounded-lg border border-gray-200 p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            Preciso de conhecimento técnico?
+                        </h3>
+
+                        <p class="mt-2 text-gray-600">
+                             Não. A plataforma foi criada para ser intuitiva e fácil de usar, mesmo para quem não tem experiência técnica.
+                        </p>
+                    </article>
+        
+                    <!-- Pergunta 2 -->
+                    <article class="rounded-lg border border-gray-200 p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            Posso cancelar quando quiser?
+                        </h3>
+                        <p class="mt-2 text-gray-600">
+                            Sim. Você pode cancelar seu plano a qualquer momento, sem taxas ou fidelidade.
+                        </p>
+                    </article>
+
+                    <article class="rounded-lg border border-gray-200 p-6">
+                        <h3 class="text-lg font-semibold text-gray-900">
+                            Meus dados estão seguros?
+                        </h3>
+
+                        <p class="mt-2 text-gray-600">
+                            Sim. Utilizamos boas práticas de segurança para proteger todas as informações da sua operação.
+                        </p>
+                    </article>
+                </div>
+
+                <!-- CTA Final -->
+                <div class="mt-20 rounded-xl bg-gray-900 px-6 py-16 text-center text-white">
+                    <h2 class="text-3xl font-bold">
+                        Pronto para automatizar sua operação?
+                    </h2>
+    
+                    <p class="mt-4 text-lg text-gray-300">
+                        Comece agora e ganhe mais tempo para focar no crescimento do seu negócio.
+                    </p>
+    
+                    <a href="contato.html"
+                       class="mt-8 inline-flex items-center rounded-md bg-white px-8 py-3 text-base font-semibold text-gray-900 hover:bg-gray-100 transition">
+                        Começar agora
+                    </a>
+                </div>
+            </div>
+
+         </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer role="contentinfo" class="bg-gray-900 text-gray-300">
+        
+        <div class="max-w-7xl mx-auto px-4 py-16">
+
+            <!-- Grid principal-->
+            <div class="grid gap-12 md:grid-cols-4">
+
+                <!-- Branding -->
+                <div>
+                    <h3 class="text-xl font-bold text-white">
+                        Plataforma SaaS Simples
+                    </h3>
+
+                    <p class="mt-4 text-sm text-gray-400">
+                        Automatize processos, ganhe produtividade e escale seu negócio com uma plataforma simples, segura e eficiente.
+                    </p>
+                </div>
+
+                <!-- Produto -->
+                <div>
+                    <h4 class="text-sm font-semibold text-white uppercase tracking-wide">
+                        Produto
+                    </h4>
+
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#funcionalidades" class="hover:text-white">Funcionalidades</a></li>
+                        <li><a href="#planos" class="hover:text-white">Planos e preços</a></li>
+                        <li><a href="#como-funciona" class="hover:text-white">Como funciona</a></li>         
+                    </ul>
+                </div>
+
+                <!-- Empresa -->
+                <div>
+                    <h4 class="text-sm font-semibold text-white uppercase tracking-wide">
+                        Empresa
+                    </h4>
+
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#hero" class="hover:text-white">Sobre nós</a></li>
+                        <li><a href="contato.html" class="hover:text-white">Contato</a></li>
+                        <li><a href="#planos" class="hover:text-white">Carreira</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-sm font-semibold text-white uppercase tracking-wide">
+                        Legal
+                    </h4>
+
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" aria-disabled="true" class="cursor-not-allowed opacity-70 hover:text-white">Política de privacidade</a></li>
+                        <li><a href="#" aria-disabled="true" class="cursor-not-allowed opacity-70 hover:text-white">Termos de uso</a></li>
+                        <li><a href="#" aria-disabled="true" class="cursor-not-allowed opacity-70 hover:text-white">Segurança</a></li>
+                    </ul>
+                </div>
+            </div>
+
+                <!-- Divider -->
+            <div class="mt-16 border-t border-gray-700 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+
+                <p class="text-sm text-gray-400">
+                     &copy; 2026 Plataforma SaaS Simples. Todos os direitos reservados.
+                </p>
+                    
+                <div class="flex items-center gap-4">
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/lucas-braga-4009a32b4/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                       class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 hover:scale-105 transition focus:outline-none focus:ring-2 focus:ring-gray-500">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 24 24" class="h-5 w-5 text-white">
+                            <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.07c.67-1.2 2.3-2.46 4.73-2.46C22 7.74 24 10.2 24 14.42V24h-5v-8.4c0-2-.04-4.58-2.8-4.58-2.8 0-3.23 2.18-3.23 4.44V24H8z"/>
+                       </svg>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/Lucas-R-Braga" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+                        class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700 hover:scale-105 transition focus:outline-none focus:ring-2 focus:ring-gray-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 24 24" class="h-5 w-5 text-white">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.35-1.78-1.35-1.78-1.1-.75.09-.74.09-.74 1.22.09 1.86 1.26 1.86 1.26 1.08 1.86 2.83 1.32 3.52 1 .11-.78.42-1.32.76-1.62-2.66-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.16 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.64.24 2.86.12 3.16.77.84 1.24 1.91 1.24 3.22 0 4.61-2.82 5.62-5.5 5.92.43.38.82 1.12.82 2.26v3.35c0 .32.22.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script src="js/main.js"></script>  
+</body>
+</html>
