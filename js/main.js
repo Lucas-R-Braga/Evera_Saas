@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => { 
     initContactForm();
-    initSmothScroll();
+    initSmoothScroll();
     initHeaderShadow();
     initRevealOnScroll();
 });
@@ -38,7 +38,7 @@ function initContactForm() {
             return;
         }
 
-        if (!isValidEmail) {
+        if (!isValidEmail(email)) {
             showFeedback('Por favor, informe um email válido.', 'error');
             return;
         }
@@ -57,7 +57,7 @@ function initContactForm() {
 }
 
 /* ================ SCROLL SUAVE ================ */
-function initSmothScroll() {
+function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(link => { 
         link.addEventListener('click', (e) => {
             const target = document.querySelector(link.getAttribute('href'));

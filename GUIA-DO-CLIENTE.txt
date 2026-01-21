@@ -1,0 +1,13 @@
+# Guia do Cliente
+
+## Alterar textos
+Abra o arquivo index.html e edite os textos diretamente nas seções desejadas.
+
+## Substituir imagens
+Recomendado:
+- Hero: 1200x800
+- Cards: ícones quadrados (PNG/SVG)
+Basta trocar o atributo src das imagens.
+
+## Publicação
+Arraste a pasta do projeto diretamente para o Netlify.
