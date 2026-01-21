@@ -1,2 +1,120 @@
-# Evera_Saas
+🚀 Plataforma SaaS Simples
+
+Landing page de uma plataforma SaaS fictícia, desenvolvida como parte de um desafio técnico para vaga de desenvolvimento.
+O projeto tem foco em layout responsivo, boas práticas de HTML semântico, Tailwind CSS e JavaScript puro para interações e validações.
+
+🖥️ Demonstração
+
+🔗 Live Preview: (adicione aqui o link do GitHub Pages depois do deploy)
+🔗 Repositório: (link do GitHub)
+
+📌 Funcionalidades
+
+✅ Landing page moderna e responsiva
+
+✅ Navegação com scroll suave
+
+✅ Animações de reveal on scroll usando IntersectionObserver
+
+✅ Formulário de contato com:
+
+Validação de campos obrigatórios
+
+Validação de e-mail
+
+Feedback visual animado
+
+✅ Header com sombra dinâmica ao rolar a página
+
+✅ Footer completo com links sociais
+
+✅ Separação clara entre HTML, CSS (Tailwind) e JavaScript
+
+🛠️ Tecnologias Utilizadas
+
+HTML5 (semântico e acessível)
+
+Tailwind CSS (CDN) para estilização rápida e responsiva
+
+JavaScript Vanilla (ES6+)
+
+IntersectionObserver API
+
+Git & GitHub
+
+⚠️ O Tailwind está sendo utilizado via CDN por simplicidade, pois o foco do desafio é layout, lógica e organização. Em produção, o ideal seria utilizar Tailwind com build (PostCSS/Vite).
+
+📂 Estrutura do Projeto
+/
+├── index.html
+├── contato.html
+├── js/
+│   └── main.js
+├── README.md
+
+⚙️ JavaScript – Organização
+
+O arquivo main.js foi estruturado de forma modular, com funções responsáveis por cada comportamento:
+
+initContactForm() → validação e feedback do formulário
+
+initSmoothScroll() → scroll suave para links internos
+
+initHeaderShadow() → sombra dinâmica no header
+
+initRevealOnScroll() → animações ao entrar na viewport
+
+Essa separação melhora a legibilidade, manutenção e escalabilidade do código.
+
+📱 Responsividade
+
+O layout foi desenvolvido com mobile-first, garantindo boa experiência em:
+
+Smartphones
+
+Tablets
+
+Desktop
+
+Todos os componentes se adaptam corretamente às diferentes resoluções.
+
+🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido com o objetivo de:
+
+Demonstrar fundamentos sólidos de front-end
+
+Aplicar boas práticas de organização
+
+Trabalhar com JavaScript puro, sem frameworks
+
+Criar uma interface clara, moderna e funcional
+
+🚀 Como executar localmente
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+Abra o arquivo index.html no navegador
+(ou utilize Live Server no VS Code)
+
+📌 Próximos Melhoramentos (opcional)
+
+🔧 Build com Tailwind (PostCSS / Vite)
+
+📬 Integração real do formulário (API / backend)
+
+🌙 Modo escuro
+
+♿ Melhorias de acessibilidade (ARIA)
+
+🔍 SEO avançado
+
+👨‍💻 Autor
+
+Lucas Braga
+🔗 LinkedIn
+🐙 GitHub
 
